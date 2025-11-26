@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "le-morne-brabant",
+      "title": "Le Morne Brabant",
+      "countryCode": "mu",
+      "description": "A stunning beach with scenic viewpoints and guided hikes to the summit. Highly recommended to combine with an aerial view of the famous underwater waterfall illusion."
+    },
+    {
+      "id": "שמורת Black River Gorges",
+      "title": "Black River Gorges National Park",
+      "countryCode": "mu",
+      "description": "The largest national park on the island, featuring hiking trails, panoramic viewpoints, and lush tropical forests."
+    },
+    {
+      "id": "Trou aux Cerfs",
+      "title": "Trou aux Cerfs – Dormant Volcano Crater",
+      "countryCode": "mu",
+      "description": "A dormant volcanic crater offering a full panoramic view of Mauritius' central region."
+    },
+    {
+      "id": "Port Louis Central Market & Caudan Waterfront",
+      "title": "Port Louis Central Market & Caudan Waterfront",
+      "countryCode": "mu",
+      "description": "A bustling central market and vibrant waterfront area with shops, food stalls, and local culture."
+    },
+    {
+  "id": "ile-aux-cerfs",
+  "title": "Ile aux Cerfs",
+  "countryCode": "mu",
+  "description": "A stunning tropical island with white-sand beaches, turquoise waters, water sports, boat tours, and complete relaxation. One of the most beautiful spots in Mauritius."
+},
+{
+  "id": "seven-colored-earth",
+  "title": "Seven Colored Earth – Chamarel",
+  "countryCode": "mu",
+  "description": "A unique natural phenomenon where colorful sand forms layered dunes. A must-see attraction in Mauritius."
+},
+{
+  "id": "chamarel-waterfall",
+  "title": "Chamarel Waterfall",
+  "countryCode": "mu",
+  "description": "One of the most impressive waterfalls on the island, plunging nearly 100 meters into lush tropical forest."
+},
+{
+  "id": "la-vanille-park",
+  "title": "La Vanille Nature Park",
+  "countryCode": "mu",
+  "description": "A wonderful nature park featuring giant tortoises, crocodiles, monkeys, and more. A fun and educational experience for all ages."
+},
+{
+  "id": "grand-baie",
+  "title": "Grand Baie",
+  "countryCode": "mu",
+  "description": "A lively coastal town known for its beautiful beaches, shopping, restaurants, nightlife, and boat excursions."
+},
+    {
+      "id": "הכותל המערבי",
+      "title": "The Western Wall",
+      "countryCode": "il",
+      "description": "The Western Wall is the last remnant of the Second Temple and the holiest site for the Jewish people, attracting millions of visitors and worshippers from around the world."
+    },
+    {
+      "id": "ים המלח",
+      "title": "The Dead Sea",
+      "countryCode": "il",
+      "description": "The lowest place on earth, famous for its mineral-rich salty waters — a unique natural floating experience."
+    },
+    {
+      "id": "שוק מחנה יהודה",
+      "title": "Mahane Yehuda Market",
+      "countryCode": "il",
+      "description": "A lively and iconic marketplace in Jerusalem, offering food stalls, fresh produce, local flavors, and authentic day-to-day Israeli culture."
+    },
+    {
+      "id": "חיפה והגנים הבהאים",
+      "title": "Haifa & The Bahá'í Gardens",
+      "countryCode": "il",
+      "description": "A beautiful coastal city featuring the famous Bahá'í Gardens, panoramic viewpoints, and a blend of natural beauty and urban charm."
+    },
+    {
+      "id": "הר החרמון",
+      "title": "Mount Hermon",
+      "countryCode": "il",
+      "description": "Israel’s highest mountain, offering breathtaking views, winter snow activities, and beautiful summer hiking trails."
+    },
+    {
+      "id": "הכנרת",
+      "title": "The Sea of Galilee",
+      "countryCode": "il",
+      "description": "A freshwater lake surrounded by mountains, known as the heart of the Galilee region — perfect for swimming, boating, and peaceful sunsets."
+    },
+    {
+      "id": "אילת",
+      "title": "Eilat",
+      "countryCode": "il",
+      "description": "Israel’s southern resort city, featuring golden beaches, colorful coral reefs, and tax-free shopping in a sunny, relaxed atmosphere."
+    }, 
+    {
+  "id": "rosh-hanikra",
+  "title": "Rosh Hanikra",
+  "countryCode": "il",
+  "description": "A breathtaking natural site at the northern tip of Israel, featuring sea-carved grottoes, the steepest cable car in the world, and stunning views of the Mediterranean Sea."
+},
+{
+  "id": "tel-aviv-port",
+  "title": "Tel Aviv Port",
+  "countryCode": "il",
+  "description": "A beautiful seaside promenade with restaurants, shops, galleries, and a lively atmosphere. One of Tel Aviv’s most popular areas for walking, dining, and watching sunsets."
+}
+
+  ]
+}

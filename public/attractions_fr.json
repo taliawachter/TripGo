@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "le-morne-brabant",
+      "title": "Le Morne Brabant",
+      "countryCode": "mu",
+      "description": "Une plage magnifique avec des points de vue panoramiques et des randonnées guidées jusqu'au sommet. Recommandé de combiner avec une vue aérienne de la célèbre illusion de la cascade sous-marine."
+    },
+    {
+      "id": "שמורת Black River Gorges",
+      "title": "Parc National des Gorges de la Rivière Noire",
+      "countryCode": "mu",
+      "description": "Le plus grand parc national de l'île, comprenant des sentiers de randonnée, des points de vue panoramiques et une forêt tropicale dense."
+    },
+    {
+      "id": "Trou aux Cerfs",
+      "title": "Trou aux Cerfs – Cratère Volcanique Endormi",
+      "countryCode": "mu",
+      "description": "Un cratère volcanique endormi offrant une vue panoramique complète sur la région centrale de l'île Maurice."
+    },
+    {
+      "id": "Port Louis Central Market & Caudan Waterfront",
+      "title": "Marché Central de Port Louis & Caudan Waterfront",
+      "countryCode": "mu",
+      "description": "Un marché central animé et un front de mer vibrant avec des boutiques, des stands gastronomiques et une atmosphère locale authentique."
+    },
+    {
+  "id": "ile-aux-cerfs",
+  "title": "Île aux Cerfs",
+  "countryCode": "mu",
+  "description": "Une île tropicale magnifique avec des plages de sable blanc, des eaux turquoise, des sports nautiques, des excursions en bateau et une atmosphère relaxante. L’un des plus beaux endroits de l’île Maurice."
+},
+{
+  "id": "seven-colored-earth",
+  "title": "Terres des Sept Couleurs – Chamarel",
+  "countryCode": "mu",
+  "description": "Un phénomène naturel unique où les dunes de sable multicolores créent un paysage étonnant. Une attraction incontournable à l’île Maurice."
+},
+{
+  "id": "chamarel-waterfall",
+  "title": "Cascade de Chamarel",
+  "countryCode": "mu",
+  "description": "L’une des cascades les plus impressionnantes de l’île, plongeant d’environ 100 mètres au cœur d’une forêt tropicale luxuriante."
+},
+{
+  "id": "la-vanille-park",
+  "title": "Parc Naturel La Vanille",
+  "countryCode": "mu",
+  "description": "Un magnifique parc naturel abritant des tortues géantes, des crocodiles, des singes et bien d’autres animaux. Une expérience agréable pour toute la famille."
+},
+{
+  "id": "grand-baie",
+  "title": "Grand Baie",
+  "countryCode": "mu",
+  "description": "Une ville côtière animée connue pour ses belles plages, ses boutiques, ses restaurants, sa vie nocturne et ses excursions en bateau."
+},
+    {
+      "id": "הכותל המערבי",
+      "title": "Le Mur Occidental",
+      "countryCode": "il",
+      "description": "Le Mur Occidental est le dernier vestige du Second Temple et le lieu le plus sacré du judaïsme, attirant des millions de visiteurs et de fidèles chaque année."
+    },
+    {
+      "id": "ים המלח",
+      "title": "La Mer Morte",
+      "countryCode": "il",
+      "description": "Le point le plus bas de la planète, célèbre pour ses eaux salées riches en minéraux — une expérience naturelle unique."
+    },
+    {
+      "id": "שוק מחנה יהודה",
+      "title": "Marché Mahane Yehuda",
+      "countryCode": "il",
+      "description": "Un marché emblématique et dynamique à Jérusalem, avec restaurants, étals de nourriture, produits frais et ambiance locale vibrante."
+    },
+    {
+      "id": "חיפה והגנים הבהאים",
+      "title": "Haïfa & les Jardins Baha'is",
+      "countryCode": "il",
+      "description": "Une ville côtière magnifique, connue pour les Jardins Baha'is, ses points de vue panoramiques et son mélange harmonieux entre nature et urbanisme."
+    },
+    {
+      "id": "הר החרמון",
+      "title": "Le Mont Hermon",
+      "countryCode": "il",
+      "description": "La plus haute montagne d'Israël, offrant de superbes paysages, des activités hivernales et de magnifiques sentiers en été."
+    },
+    {
+      "id": "הכנרת",
+      "title": "Le Lac de Tibériade",
+      "countryCode": "il",
+      "description": "Un lac d'eau douce entouré de montagnes, au cœur de la région de Galilée — idéal pour la baignade, la navigation et des couchers de soleil paisibles."
+    },
+    {
+      "id": "אילת",
+      "title": "Eilat",
+      "countryCode": "il",
+      "description": "La station balnéaire du sud d'Israël, avec ses plages dorées, ses récifs coralliens colorés et ses boutiques hors taxes dans une ambiance ensoleillée et détendue."
+    }, 
+    {
+  "id": "rosh-hanikra",
+  "title": "Rosh Hanikra",
+  "countryCode": "il",
+  "description": "Un site naturel spectaculaire situé à l'extrême nord d'Israël, avec des grottes marines sculptées par les vagues, le téléphérique le plus raide du monde et une vue imprenable sur la mer Méditerranée."
+},
+{
+  "id": "tel-aviv-port",
+  "title": "Port de Tel Aviv",
+  "countryCode": "il",
+  "description": "Une promenade en bord de mer avec restaurants, boutiques, galeries et une atmosphère vibrante. L'un des lieux les plus populaires de Tel Aviv pour se promener, sortir et admirer les couchers de soleil."
+}
+
+  ]
+}
