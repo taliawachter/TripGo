@@ -17,6 +17,9 @@ const client = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
+
+
+
 // בדיקה שהשרת חי
 app.get("/", (req, res) => {
   res.send("Trip AI server is running");

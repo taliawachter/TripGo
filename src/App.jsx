@@ -149,7 +149,7 @@ export default function App() {
           />
         )}
       </section>
-
+{/* 
       <footer
         style={{
           position: "relative",
@@ -160,11 +160,11 @@ export default function App() {
           background: "#0b0b0b",
           borderTop: "1px solid rgba(255,255,255,0.08)",
         }}
-      >
-        {(STR[lang]?.builtWith || STR.en.builtWith)(
+      > */}
+        {/* {(STR[lang]?.builtWith || STR.en.builtWith)(
           new Date().getFullYear()
-        )}
-      </footer>
+        )} */}
+      {/* </footer> */}
     </div>
   );
 }
