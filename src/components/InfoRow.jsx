@@ -1,7 +1,5 @@
 import React from "react";
 
-// קומפוננטת שורה להצגת מידע
-
 export function InfoRow({ label, value }) {
   return (
     <div

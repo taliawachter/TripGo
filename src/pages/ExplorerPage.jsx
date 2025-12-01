@@ -17,7 +17,7 @@ export function ExplorerPage({ lang, conf, wx, onBack }) {
   const [suggestions, setSuggestions] = useState([]);
   const [suggestLoading, setSuggestLoading] = useState(false);
   const [mapActive, setMapActive] = useState(false);
-const [suggestEnabled, setSuggestEnabled] = useState(true);
+  const [suggestEnabled, setSuggestEnabled] = useState(true);
 
   const [attractions, setAttractions] = useState([]);
   const [attrLoading, setAttrLoading] = useState(false);
@@ -131,7 +131,7 @@ const [suggestEnabled, setSuggestEnabled] = useState(true);
   // אוטוקומפליט
   useEffect(() => {
     const term = q.trim();
-    if (!term|| !suggestEnabled) {
+    if (!term || !suggestEnabled) {
       setSuggestions([]);
       return;
     }
@@ -378,8 +378,9 @@ const [suggestEnabled, setSuggestEnabled] = useState(true);
           >
             <input
               value={q}
-              onChange={(e) =>{ setQ(e.target.value);
-                  setSuggestEnabled(true);
+              onChange={(e) => {
+                setQ(e.target.value);
+                setSuggestEnabled(true);
               }}
               placeholder={STR[lang]?.placeholder || STR.en.placeholder}
               style={{
@@ -573,9 +574,8 @@ const [suggestEnabled, setSuggestEnabled] = useState(true);
                   label={STR[lang]?.currency || STR.en.currency}
                   value={
                     data.currency
-                      ? `${data.currency}${
-                          data.currencySymbol ? ` (${data.currencySymbol})` : ""
-                        }`
+                      ? `${data.currency}${data.currencySymbol ? ` (${data.currencySymbol})` : ""
+                      }`
                       : "—"
                   }
                 />
@@ -640,9 +640,8 @@ const [suggestEnabled, setSuggestEnabled] = useState(true);
           >
             <h3 style={{ marginTop: 0, fontSize: 18 }}>
               {jEvent?.eventName
-                ? `${STR[lang]?.shabbatHeader || STR.en.shabbatHeader}: ${
-                    jEvent.eventName
-                  }`
+                ? `${STR[lang]?.shabbatHeader || STR.en.shabbatHeader}: ${jEvent.eventName
+                }`
                 : STR[lang]?.shabbatHeader || STR.en.shabbatHeader}
             </h3>
 

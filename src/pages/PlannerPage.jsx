@@ -6,8 +6,8 @@ export function PlannerPage({ lang, onBack }) {
   const [travelersCount, setTravelersCount] = useState(2);
   const [nights, setNights] = useState(5);
   const [month, setMonth] = useState("");
-  // const [budgetLevel,  ] = useState([]);
-  const [style, setStyle] = useState([]); // array: ['beach','shopping',...]
+  const [budgetLevel,] = useState([]);
+  const [style, setStyle] = useState([]);
   const [needKosher, setNeedKosher] = useState(true);
   const [nearChabad, setNearChabad] = useState(false);
   const [directFlightsOnly, setDirectFlightsOnly] = useState(true);
@@ -112,9 +112,9 @@ export function PlannerPage({ lang, onBack }) {
 
       setAiResult(
         data.planText ||
-          (isHeb
-            ? "לא התקבלה תשובה מה-AI. נסי שוב מאוחר יותר."
-            : "No response text from AI. Please try again.")
+        (isHeb
+          ? "לא התקבלה תשובה מה-AI. נסי שוב מאוחר יותר."
+          : "No response text from AI. Please try again.")
       );
     } catch (e) {
       console.error(e);
@@ -135,10 +135,9 @@ export function PlannerPage({ lang, onBack }) {
   }
 
   function handleCloseModal() {
-  setShowModal(false);
-  setLoading(false);   // לוודא שהכפתור שוב פעיל
-}
-
+    setShowModal(false);
+    setLoading(false);   // לוודא שהכפתור שוב פעיל
+  }
 
   // ריסטרט – מבקש מחדש מסלול באותם נתונים
   async function handleRestart() {
@@ -536,47 +535,47 @@ export function PlannerPage({ lang, onBack }) {
                 }
               />
             </div>
-{/* כפתור עגול */}
-<div style={{ display: "flex", justifyContent: "center", marginTop: 12 }}>
-  <button
-    type="button"
-    onClick={handleGenerate}
-    disabled={loading}
-    style={{
-      width: "80px",
-      height: "80px",
-      borderRadius: "50%",
-      border: "none",
-      background: "#3b82f6",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      cursor: loading ? "default" : "pointer",
-      boxShadow: "0 12px 28px rgba(59,130,246,0.35)",
-      transition: "transform 0.15s ease, box-shadow 0.15s ease",
-    }}
+            {/* כפתור עגול */}
+            <div style={{ display: "flex", justifyContent: "center", marginTop: 12 }}>
+              <button
+                type="button"
+                onClick={handleGenerate}
+                disabled={loading}
+                style={{
+                  width: "80px",
+                  height: "80px",
+                  borderRadius: "50%",
+                  border: "none",
+                  background: "#3b82f6",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  cursor: loading ? "default" : "pointer",
+                  boxShadow: "0 12px 28px rgba(59,130,246,0.35)",
+                  transition: "transform 0.15s ease, box-shadow 0.15s ease",
+                }}
 
-    onMouseEnter={(e) => {
-      e.currentTarget.style.transform = "scale(1.06)";
-      e.currentTarget.style.boxShadow = "0 14px 32px rgba(59,130,246,0.40)";
-    }}
-    onMouseLeave={(e) => {
-      e.currentTarget.style.transform = "scale(1)";
-      e.currentTarget.style.boxShadow = "0 12px 28px rgba(59,130,246,0.35)";
-    }}
-  >
-    {/* אייקון מטוס */}
-    <span
-      style={{
-        fontSize: "30px",
-        color: "white",
-        filter:"drop-shadow(0 1px 10px rgba(255, 255, 255, 1))",
-        transform: isHeb ? "rotate(0deg)" : "rotate(180deg)",
-      }}
-    >
-      ✈️
-    </span>
-  </button>
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = "scale(1.06)";
+                  e.currentTarget.style.boxShadow = "0 14px 32px rgba(59,130,246,0.40)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.boxShadow = "0 12px 28px rgba(59,130,246,0.35)";
+                }}
+              >
+                {/* אייקון מטוס */}
+                <span
+                  style={{
+                    fontSize: "30px",
+                    color: "white",
+                    filter: "drop-shadow(0 1px 10px rgba(255, 255, 255, 1))",
+                    transform: isHeb ? "rotate(0deg)" : "rotate(180deg)",
+                  }}
+                >
+                  ✈️
+                </span>
+              </button>
 
               {error && (
                 <p
@@ -612,7 +611,7 @@ export function PlannerPage({ lang, onBack }) {
               style={{
                 position: "relative",
                 width: "580px",
-                maxHeight: "calc(100vh - 100px)",
+                maxHeight: "calc(70vh)",
                 borderRadius: 22,
                 background: "rgba(255,255,255,0.97)",
                 border: "1px solid rgba(29, 29, 29, 0.4)",
@@ -637,9 +636,9 @@ export function PlannerPage({ lang, onBack }) {
                   color: "#111827",
                   userSelect: "none",
                 }}
-                >
-          {lang === "he" ? "→" : "←"}
-        </div>
+              >
+                {lang === "he" ? "→" : "←"}
+              </div>
               <h2
                 style={{
                   textAlign: "center",
@@ -727,7 +726,16 @@ export function PlannerPage({ lang, onBack }) {
                     fontSize: 14,
                     fontWeight: 600,
                   }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#2563eb"; // כחול כהה יותר
+                    e.currentTarget.style.boxShadow = "0 6px 14px rgba(37, 99, 235, 0.35)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "#3b82f6"; // חזרה לכחול רגיל
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
                 >
+
                   {isHeb ? "סגנון אחר" : "Another style"}
                 </button>
 
@@ -744,6 +752,13 @@ export function PlannerPage({ lang, onBack }) {
                     fontSize: 14,
                     fontWeight: 500,
                     color: "#111827",
+                  }}
+
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "rgba(229,231,235,0.9)"; // אפור בהיר כהה
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "white"; // חזרה ללבן
                   }}
                 >
                   {isHeb ? "חזרה לשאלות" : "Back to questions"}
