@@ -149,22 +149,6 @@ export default function App() {
           />
         )}
       </section>
-{/* 
-      <footer
-        style={{
-          position: "relative",
-          zIndex: 1,
-          textAlign: "center",
-          padding: "14px",
-          color: "#e5e7eb",
-          background: "#0b0b0b",
-          borderTop: "1px solid rgba(255,255,255,0.08)",
-        }}
-      > */}
-        {/* {(STR[lang]?.builtWith || STR.en.builtWith)(
-          new Date().getFullYear()
-        )} */}
-      {/* </footer> */}
     </div>
   );
 }

@@ -17,6 +17,7 @@ export function ExplorerPage({ lang, conf, wx, onBack }) {
   const [suggestions, setSuggestions] = useState([]);
   const [suggestLoading, setSuggestLoading] = useState(false);
   const [mapActive, setMapActive] = useState(false);
+const [suggestEnabled, setSuggestEnabled] = useState(true);
 
   const [attractions, setAttractions] = useState([]);
   const [attrLoading, setAttrLoading] = useState(false);
@@ -130,7 +131,7 @@ export function ExplorerPage({ lang, conf, wx, onBack }) {
   // אוטוקומפליט
   useEffect(() => {
     const term = q.trim();
-    if (!term) {
+    if (!term|| !suggestEnabled) {
       setSuggestions([]);
       return;
     }
@@ -169,7 +170,7 @@ export function ExplorerPage({ lang, conf, wx, onBack }) {
     }, 350);
 
     return () => clearTimeout(delayId);
-  }, [q, lang]);
+  }, [q, lang, suggestEnabled]);
 
   useEffect(() => {
     setMapActive(false);
@@ -377,7 +378,9 @@ export function ExplorerPage({ lang, conf, wx, onBack }) {
           >
             <input
               value={q}
-              onChange={(e) => setQ(e.target.value)}
+              onChange={(e) =>{ setQ(e.target.value);
+                  setSuggestEnabled(true);
+              }}
               placeholder={STR[lang]?.placeholder || STR.en.placeholder}
               style={{
                 flex: 1,
@@ -441,6 +444,7 @@ export function ExplorerPage({ lang, conf, wx, onBack }) {
                     key={s.id}
                     onMouseDown={(e) => {
                       e.preventDefault();
+                      setSuggestEnabled(false);
                       setQ(s.query);
                       handleSearch(null, s.query);
                       setSuggestions([]);
