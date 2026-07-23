@@ -1,5 +1,5 @@
 
-export function buildOsmMapUrl(lat, lon, zoom = 11) {
+export function buildOsmMapUrl(lat, lon) {
   if (lat == null || lon == null) return null;
   const delta = 0.25;
   const left = lon - delta;

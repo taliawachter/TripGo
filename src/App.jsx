@@ -6,7 +6,7 @@ import { ExplorerPage } from "./pages/ExplorerPage";
 import { PlannerPage } from "./pages/PlannerPage";
 
 export default function App() {
-  const { lang, setLang, conf, t, wx } = useI18n();
+  const { lang, setLang, conf, wx } = useI18n();
   const [screen, setScreen] = useState("landing"); // landing | explorer | planner
   const isRTL = conf.dir === "rtl";
 

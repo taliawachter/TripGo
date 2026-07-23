@@ -1,16 +1,24 @@
 {
-  "name": "server",
+  "name": "tripgo-server",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
-  "description": "",
+  "description": "Backend server for the TripGo AI-powered travel planner.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch server.js",
+    "test": "node --test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tripgo",
+    "travel-planner",
+    "openai",
+    "express",
+    "ai"
+  ],
+  "author": "Talia Wachter",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
